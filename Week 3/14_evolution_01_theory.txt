@@ -1,0 +1,20 @@
+THEORY OF EVOLUTION – BASIC SIMULATION CONCEPT
+
+Evolution means gradual change in inheritable characteristics.
+
+DNA contains information in binary form:
+0 and 1
+
+Mutation:
+Randomly flipping a bit (0 → 1 or 1 → 0)
+
+Over many generations,
+random mutations accumulate.
+
+This program simulates mutation using:
+
+- Random index selection
+- Probability-based flipping
+- Iterative evolution
+
+This is a simplified model inspired by genetic algorithms.
