@@ -1,0 +1,18 @@
+# Dobble Game – Code Explanation
+
+## Libraries Used
+- string → alphabets ke liye
+- random → random selection ke liye
+
+## Steps
+1. Symbols list create karna.
+2. Do cards initialize karna.
+3. Random position choose karna common symbol ke liye.
+4. Random symbol select karna.
+5. Baaki positions fill karna without repetition.
+6. User se input lena.
+7. Check karna user correct hai ya nahi.
+
+## Important Concept
+random.randint(a,b) inclusive hota hai.
+Isliye index error avoid karne ke liye correct range use karna zaruri hai.

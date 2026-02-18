@@ -1,0 +1,19 @@
+# Birthday Paradox – Code Explanation
+
+## Libraries Used
+- random
+- datetime
+
+## Steps
+1. 50 random birthdays generate karna.
+2. Leap year check karna.
+3. Month ke according valid day generate karna.
+4. Date ko day-of-year me convert karna.
+5. List sort karna.
+6. Duplicate values check karna.
+
+## Leap Year Logic
+If divisible by 400 → leap year
+Else if divisible by 100 → not leap
+Else if divisible by 4 → leap
+Else → not leap

@@ -1,0 +1,90 @@
+# 🎬 Guess The Movie Game – Project Explanation
+
+## 📌 Project Overview
+
+This is a two-player Python game where players guess the name of a randomly selected movie.
+
+Each movie is encoded using '*' symbols.
+Players guess letters one by one.
+If correct, letters are revealed.
+If wrong, message is displayed.
+Players can guess the full movie anytime.
+
+---
+
+## 🧠 Game Logic
+
+### 1️⃣ Movie Selection
+- Movies are stored in a list.
+- A movie is selected randomly using:
+  random.choice()
+
+---
+
+### 2️⃣ Encoding
+- All letters are replaced with '*'
+- Spaces remain unchanged
+
+Example:
+Movie: "taare zameen par"
+Display: "***** ****** ***"
+
+---
+
+### 3️⃣ Letter Guessing
+- Player enters a letter.
+- If present → unlock positions
+- If not → show "Letter not found"
+
+---
+
+### 4️⃣ Movie Guessing
+- Player can attempt full movie guess.
+- Correct → +1 point
+- Wrong → continue guessing
+
+---
+
+### 5️⃣ Turn System
+- turn % 2 == 0 → Player 1
+- turn % 2 == 1 → Player 2
+
+---
+
+### 6️⃣ Ending Game
+- If user selects Quit
+- Final scores displayed
+
+---
+
+## 🔥 Concepts Used
+
+- Functions
+- Loops
+- Conditionals
+- Random module
+- String manipulation
+- Lists
+- Game logic
+- Debugging
+
+---
+
+## 🎯 Learning Outcome
+
+This project demonstrates:
+
+- Modular programming
+- State management
+- Random selection
+- Interactive terminal game design
+
+---
+
+## 🚀 Possible Improvements
+
+- Add scoring deduction per wrong guess
+- Add maximum attempt limit
+- Add hint system
+- Prevent movie repetition
+- Create GUI version

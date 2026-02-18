@@ -10,7 +10,7 @@ Steps:
 """
 
 from statistics import mean
-from scipy import stats
+from scipy import stats 
 
 # Sample dataset (replace with full dataset if needed)
 estimates = [
@@ -38,3 +38,4 @@ print("Manual 10% Trimmed Mean:", manual_trimmed_mean)
 scipy_trimmed_mean = stats.trim_mean(estimates, 0.1)
 
 print("Scipy 10% Trimmed Mean:", scipy_trimmed_mean)
+

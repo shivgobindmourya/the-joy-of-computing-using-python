@@ -1,0 +1,70 @@
+# 🎯 Magic Square – Hit and Trial (Siamese Method)
+
+## 📌 Definition
+Magic Square ek N × N matrix hota hai jisme:
+
+- Har row ka sum same hota hai
+- Har column ka sum same hota hai
+- Dono diagonals ka sum same hota hai
+
+Is constant sum ko Magic Number kehte hain.
+
+---
+
+## 🧮 Magic Number Formula
+
+M = n(n² + 1) / 2
+
+Example:
+n = 3
+M = 3(9 + 1) / 2 = 15
+
+---
+
+## ⚠️ Condition
+Ye algorithm sirf **odd values of n** ke liye work karta hai.
+(3, 5, 7, 9 ...)
+
+---
+
+## 🧠 Algorithm (Siamese Method)
+
+Step 1:
+1 ko place karo:
+Row = n // 2  
+Column = n - 1  
+
+Step 2:
+Next number ke liye:
+Row = Row - 1  
+Column = Column + 1  
+
+---
+
+## 🔄 Special Conditions
+
+1. If row == -1 and column == n:
+       row = 0
+       column = n - 2
+
+2. If column == n:
+       column = 0
+
+3. If row < 0:
+       row = n - 1
+
+4. If position already filled:
+       column = column - 2
+       row = row + 1
+
+---
+
+## 💻 Code Logic Summary
+
+- Matrix initialize with zeros
+- While count <= n*n:
+    - Conditions check
+    - Value insert
+    - Move to next position
+- Finally print matrix
+- Print Magic Sum

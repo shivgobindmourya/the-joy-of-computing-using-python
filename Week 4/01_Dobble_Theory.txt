@@ -1,0 +1,22 @@
+# Dobble Game – Spot the Similarity
+
+## Introduction
+Dobble (Spot It) ek card game hai jisme:
+- Har card me fixed number of symbols hote hain.
+- Kisi bhi do cards me exactly ek common symbol hota hai.
+
+## Game Rule
+1. Do cards compare karo.
+2. Exactly ek symbol common hoga.
+3. Jo pehle bataye, wo winner.
+
+## Mathematical Concept
+If:
+Set A ∩ Set B = exactly 1 element
+
+Toh game valid hai.
+
+## Programming Idea
+- Har card ko list se represent karenge.
+- Symbols alphabets honge.
+- Ensure karenge ki exactly 1 common symbol ho.

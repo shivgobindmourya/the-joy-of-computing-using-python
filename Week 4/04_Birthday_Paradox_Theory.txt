@@ -1,0 +1,22 @@
+# Birthday Paradox
+
+## Concept
+365 possible birthdays hone ke bawajood:
+Sirf 23 logon me 50% chance hota hai ki do log same birthday share karein.
+
+## Why It Happens?
+Hum compare karte hain:
+ANY pair with ANY pair.
+
+Number of pairs:
+n(n-1)/2
+
+For 40 people:
+40*39/2 = 780 comparisons
+
+Isliye repetition jaldi hoti hai.
+
+## Important Topics
+- Probability
+- Pigeonhole Principle
+- Combinatorics
