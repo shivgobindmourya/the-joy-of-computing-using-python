@@ -1,16 +1,36 @@
 import random
 
 movies = [
-    "anand",
-    "drishyam",
-    "nayakan",
-    "anbe sivam",
-    "gol maal",
-    "vikram vedha",
-    "black friday",
+    "sholay",
+    "lagaan",
+    "swades",
+    "queen",
+    "barfi",
+    "pk",
+    "raazi",
+    "war",
+    "sultan",
     "dangal",
-    "manichithrarhazhu",
-    "taare zameen par"
+    "drishyam",
+    "andhadhun",
+    "kahaani",
+    "tumbbad",
+    "kick",
+    "don",
+    "rockstar",
+    "ghajini",
+    "baazigar",
+    "veer zaara",
+    "chandni",
+    "mohra",
+    "lootera",
+    "badhaai ho",
+    "article fifteen",
+    "tamasha",
+    "padmaavat",
+    "raanjhanaa",
+    "blackmail",
+    "krrish"
 ]
 
 def create_question(movie):
